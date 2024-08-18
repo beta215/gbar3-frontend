@@ -280,7 +280,7 @@ vector<string> argsGetExtensionList() {
 	vector<string> extensionList;
 
 	// Always supported files: NDS binaries and predefined argument lists
-	extensionList.push_back(NDS_EXT);
+	// extensionList.push_back(NDS_EXT);
 	extensionList.push_back(ARG_EXT);
 	extensionList.push_back(GBA_EXT);
 
